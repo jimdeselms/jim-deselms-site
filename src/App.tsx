@@ -1,9 +1,9 @@
-import './App.css'
+import { MarkdownContainer } from "./components/MarkdownContainer"
 
 function App() {
   return (
     <>
-      This is a test.
+      <MarkdownContainer filename="articles/first-article" />
     </>
   )
 }

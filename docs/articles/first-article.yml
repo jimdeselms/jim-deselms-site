@@ -1,0 +1,24 @@
+title:
+  My first article
+
+date: 2025-08-02
+
+content: >
+  Hi, I'm Jim DeSelms. I'm building a personal website to share some thoughts and projects.
+
+  Rather than using a CMS, I'm writing this from scratch. For now, it's a React app where all of the articles are defined
+  in YAML files, with fields in Markdown.
+
+  There are more efficient ways to do this, but I also find that the best way to learn how things is to basically build
+  them myself.
+
+  Anyhow, I've always been really interested in language and compiler design, and I have a compiler idea I've been kicking
+  around for a few years, and I'd like to try to bring it to life in this project.
+
+  I'm sure I'll have other stuff I include in here.
+
+  
+
+  
+
+  

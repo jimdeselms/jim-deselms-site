@@ -7,5 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'docs'
   },
-  base: './' // Use relative base for GitHub Pages
+  base: './', // Use relative base for GitHub Pages
+  // Include YAML files as assets so they can be fetched
+  assetsInclude: ['**/*.yml', '**/*.md']
 })
