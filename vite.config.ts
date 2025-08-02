@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+  ],
   build: {
     outDir: 'docs'
   },
-  base: './', // Use relative base for GitHub Pages
-  // Include YAML files as assets so they can be fetched
-  assetsInclude: ['**/*.yml', '**/*.md']
+  base: './' // Use relative base for GitHub Pages
 })
